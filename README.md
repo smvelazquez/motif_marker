@@ -11,7 +11,7 @@ The image is described as follows:
   3. A legend of motifs is underneath the image indicating which gene correlates to which color.
   4. Gene names are located next to their respective strand for clarity. 
   
-This specific motif marker recognizes exon sequences as using capitalized characters (ATUCG) and intron sequences using lowercase (atucg), as per UCSC Genome Browser sequence download format. This script does not support any other characters aside from ATCG and U as the ambiguous characters. 
+This specific motif marker recognizes exon sequences as using capitalized characters (ATUCG) and intron sequences using lowercase (atucg), as per UCSC Genome Browser sequence download format. This script does not support any other characters aside from ATCGU and Y as the ambiguous character. 
 
 ![Example output from running the program](https://github.com/smvelazquez/motif_marker/blob/master/final_image.svg)
 
