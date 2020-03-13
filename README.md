@@ -21,3 +21,9 @@ This script requires Python 3.7.1. It also requires a single-line fasta file. Pl
 ```
 awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' interleaved.fasta > singleline.fasta
 ```
+
+Once your single line fasta has been produced, run the program as such:
+
+```
+python motif_identification.py -f singleline.fasta -m Fig_1_motifs.txt
+```
