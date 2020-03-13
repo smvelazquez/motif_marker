@@ -17,4 +17,7 @@ This specific motif marker recognizes exon sequences as using capitalized charac
 ------------------------------------------------------------
 
 This script requires Python 3.7.1. It also requires a single-line fasta file. Please use the following command to convert multiline to single-line. 
-```awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' interleaved.fasta > singleline.fasta```
+
+```
+awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' interleaved.fasta > singleline.fasta
+```
