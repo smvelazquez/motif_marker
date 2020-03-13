@@ -13,7 +13,7 @@ The image is described as follows:
   
 This specific motif marker recognizes exon sequences as using capitalized characters (ATUCG) and intron sequences using lowercase (atucg), as per UCSC Genome Browser sequence download format. This script does not support any other characters aside from ATCG and U as the ambiguous characters. 
 
-![Example output from running the program](file://Users/samanthavelazquez/Desktop/motif_mark/final_image.svg)
+![Example output from running the program](https://github.com/smvelazquez/motif_marker/blob/master/final_image.svg)
 
 # Downloads and Requirements
 ------------------------------------------------------------
