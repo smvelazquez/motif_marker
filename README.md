@@ -29,3 +29,4 @@ Once your single line fasta has been produced, run the program as such:
 ```
 python motif_identification.py -f singleline.fasta -m Fig_1_motifs.txt
 ```
+The final image will be outputted to your working directory, so plan accordingly. 
